@@ -1,0 +1,5 @@
+# needed for mainnet forking
+ALCHEMY_URL=https://eth-mainnet.alchemyapi.io/v2/<your_key>
+
+GEM_API_URL=<api_url>
+GEM_API_KEY=<api_key>

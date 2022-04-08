@@ -1,0 +1,41 @@
+{
+  "name": "@brinkninja/nft-adapter",
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "description": "Adapter contract for NFT swaps",
+  "author": "Brink",
+  "license": "GPL-3.0-or-later",
+  "directories": {
+    "artifacts": "artifacts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brinktrade/1inch-adapter.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts"
+  ],
+  "bugs": {
+    "url": "https://github.com/brinktrade/1inch-adapter/issues"
+  },
+  "homepage": "https://github.com/brinktrade/1inch-adapter#readme",
+  "devDependencies": {
+    "@brinkninja/core": "1.0.0",
+    "@brinkninja/utils": "^0.4.2",
+    "@brinkninja/sdk": "^1.3.0",
+    "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@openzeppelin/contracts": "^4.5.0",
+    "axios": "^0.25.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.9.3",
+    "snap-shot-it": "^7.9.6"
+  }
+}
