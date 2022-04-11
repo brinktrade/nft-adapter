@@ -7,8 +7,6 @@ import '@openzeppelin/contracts/token/ERC721/IERC721.sol';
 import '@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol';
 import './IWETH.sol';
 
-import 'hardhat/console.sol';
-
 contract NftAdapter is ERC721Holder {
   IWETH public weth;
   bool public initialized;
@@ -45,8 +43,6 @@ contract NftAdapter is ERC721Holder {
 
   function buyWithToken(IERC20 swapToken, bytes memory swapData, address to, bytes memory data, uint amount, IERC721 token, uint tokenId, address account) external {
     _routerApproveMax(swapToken);
-
-    console.logUint(swapToken.balanceOf(address(this)));
 
     assembly {
       let result := call(gas(), V3_SWAP_ROUTER_ADDRESS, 0, add(swapData, 0x20), mload(swapData), 0, 0)

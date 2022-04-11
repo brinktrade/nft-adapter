@@ -28,7 +28,8 @@
   "devDependencies": {
     "@brinkninja/core": "1.0.0",
     "@brinkninja/utils": "^0.4.2",
-    "@brinkninja/sdk": "^1.3.0",
+    "@brinkninja/sdk": "^1.3.3",
+    "@brinkninja/verifiers": "^1.0.0",
     "@nomiclabs/hardhat-ethers": "^2.0.4",
     "@openzeppelin/contracts": "^4.5.0",
     "axios": "^0.25.0",

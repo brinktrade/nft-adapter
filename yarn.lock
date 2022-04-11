@@ -15,10 +15,10 @@
   resolved "https://registry.yarnpkg.com/@brinkninja/core/-/core-1.0.0.tgz#070990e33516a466145266b3286d35e9d38cef18"
   integrity sha512-QM7yXeIwhmiFdNyy4Rpmjn+rmIrbqv219H/1qtEOkiabsnbbuSbUdL5iqE3fikxripsNELJG9BSPtERepl72kg==
 
-"@brinkninja/sdk@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@brinkninja/sdk/-/sdk-1.3.0.tgz#3866e6a7e8dec5734c0193bca3b22252ad94144b"
-  integrity sha512-EdmTx+EB2re4RT94txT1ySiRFiKXYlhoGWm0maI2CPYJWNGaWbPDpmLk81Xa0Zw3vqr4k4I1HWNgDUUHN/aQdA==
+"@brinkninja/sdk@^1.3.3":
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/@brinkninja/sdk/-/sdk-1.3.3.tgz#30a4709307823647363517a3a1edf650391cecbd"
+  integrity sha512-flIYufjquwn4cRs/YlUTM69VAYBG5djW3CKaK7mOK4kF+uyNdOxH1s2cPRoEoCBwkhNL8ykin8ErlRyQny2gWg==
   dependencies:
     "@brinkninja/core" "^1.0.0"
     "@brinkninja/utils" "^0.3.1"
@@ -31,8 +31,8 @@
     ethereumjs-util "^6.2.0"
     ethers "^5.2.0"
     lodash "^4.17.15"
-    web3-eth-abi "^1.2.6"
-    web3-utils "^1.2.6"
+    web3-eth-abi "^1.7.3"
+    web3-utils "^1.7.3"
 
 "@brinkninja/utils@^0.3.1":
   version "0.3.2"
@@ -7535,14 +7535,6 @@ web3-eth-abi@1.2.11:
     underscore "1.9.1"
     web3-utils "1.2.11"
 
-web3-eth-abi@^1.2.6:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.7.2.tgz#e0c61a0d614755011483fb5055118bce2761cf0b"
-  integrity sha512-yRdv3k1nkyQQsHjyG2DvCHiiJCK3RNIUQmTzJyqFcc3VeISq8pZPCuOGBARNotEf6AjdYmjEMM6Vp/UnIHtNNQ==
-  dependencies:
-    "@ethersproject/abi" "5.0.7"
-    web3-utils "1.7.2"
-
 web3-eth-abi@^1.2.7:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.7.1.tgz#6632003220a4defee4de8215dc703e43147382ea"
@@ -7550,6 +7542,14 @@ web3-eth-abi@^1.2.7:
   dependencies:
     "@ethersproject/abi" "5.0.7"
     web3-utils "1.7.1"
+
+web3-eth-abi@^1.7.3:
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/web3-eth-abi/-/web3-eth-abi-1.7.3.tgz#2a1123c7252c37100eecd0b1fb2fb2c51366071f"
+  integrity sha512-ZlD8DrJro0ocnbZViZpAoMX44x5aYAb73u2tMq557rMmpiluZNnhcCYF/NnVMy6UIkn7SF/qEA45GXA1ne6Tnw==
+  dependencies:
+    "@ethersproject/abi" "5.0.7"
+    web3-utils "1.7.3"
 
 web3-eth-accounts@1.2.11:
   version "1.2.11"
@@ -7736,20 +7736,7 @@ web3-utils@1.7.1, web3-utils@^1.0.0-beta.31, web3-utils@^1.3.6:
     randombytes "^2.1.0"
     utf8 "3.0.0"
 
-web3-utils@1.7.2, web3-utils@^1.2.6:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.7.2.tgz#5abfff3fdcf5c6ab5c94e6fba27ab8eeb3ac5393"
-  integrity sha512-BFBbyReeGrwVTV9eX4o6yblHHbdRJXtsN9NIqzDAeG7+qAv+rtyYxTTrknbOJ8w3egY1F73entA1Qt5XYrdeZQ==
-  dependencies:
-    bn.js "^4.11.9"
-    ethereum-bloom-filters "^1.0.6"
-    ethereumjs-util "^7.1.0"
-    ethjs-unit "0.1.6"
-    number-to-bn "1.7.0"
-    randombytes "^2.1.0"
-    utf8 "3.0.0"
-
-web3-utils@^1.7.3:
+web3-utils@1.7.3, web3-utils@^1.7.3:
   version "1.7.3"
   resolved "https://registry.yarnpkg.com/web3-utils/-/web3-utils-1.7.3.tgz#b214d05f124530d8694ad364509ac454d05f207c"
   integrity sha512-g6nQgvb/bUpVUIxJE+ezVN+rYwYmlFyMvMIRSuqpi1dk6ApDD00YNArrk7sPcZnjvxOJ76813Xs2vIN2rgh4lg==

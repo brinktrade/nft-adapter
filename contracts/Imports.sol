@@ -9,5 +9,6 @@ import "@brinkninja/core/contracts/Account/Account.sol";
 import "@brinkninja/core/contracts/Account/AccountFactory.sol";
 import "@brinkninja/core/contracts/Test/AccountWithTestCalls.sol";
 import "@brinkninja/verifiers/contracts/Verifiers/NftLimitSwapVerifier.sol";
+import "@brinkninja/verifiers/contracts/Test/TestFulfillSwap.sol";
 
 contract Imports {}
